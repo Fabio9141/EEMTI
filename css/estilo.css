@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0 0 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background: rgb(255, 255, 255);
+
+}
+h1{
+    text-align: center;
+    color: rgb(255, 78, 2);font-size: 25px;
+    background: rgba(3, 169, 34, 0.757) ;
+}
+p{
+    text-align: center;
+    color: rgba(52, 162, 5, 0.805);
+    font-family: 'Courier New', Courier, monospace;
+}
+p strong{
+    color: rgb(255, 1, 1);
+}
+/*HEADER - CABEÇALHO DO SITE*/
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+#logo{
+    width: 65%;
+   
+}
+
+.menu ol li{
+    display: inline;
+}
+
+.menu > ol > li > a:link{
+    text-decoration: none;
+}
+
+.menu > ol > li > a:hover{
+    border-bottom :5px solid rgba(35, 187, 15, 0.711);;
+}
+.menu > ol > li > a:active{
+    color: black;
+}
+
+#ativo{
+    border-bottom: 5px solid rgba(35, 187, 15, 0.711);
+}
+
+/*seções*/
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+    background-color: white;
+   
+}
+
+.conteudo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    max-width: 70%;
+    flex-direction: column;
+}
+
+
+#foto{
+    width: 350px;
+    border-radius: 30%;
+}
+
+#video{
+    background-color: rgba(14, 201, 14, 0.848);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    border-bottom: 10px  solid orange;
+
+}
+#video > .container > img {
+    height: 315px;
+}
